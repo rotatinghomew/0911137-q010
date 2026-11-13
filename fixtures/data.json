@@ -1,0 +1,4329 @@
+{
+  "meta": {
+    "name": "质保费用发展台",
+    "description": "shipments 的 units 是质保暴露，warranty_months 是质保长度。",
+    "groups": [
+      "标准型",
+      "加强型"
+    ],
+    "default_cutoff": 24,
+    "min_cutoff": 0,
+    "max_cutoff": 48
+  },
+  "tables": {
+    "shipments": [
+      {
+        "product": "标准型",
+        "cohort": 1,
+        "units": 170,
+        "warranty_months": 12,
+        "known_month": 1
+      },
+      {
+        "product": "标准型",
+        "cohort": 2,
+        "units": 188,
+        "warranty_months": 12,
+        "known_month": 2
+      },
+      {
+        "product": "标准型",
+        "cohort": 3,
+        "units": 100,
+        "warranty_months": 12,
+        "known_month": 3
+      },
+      {
+        "product": "标准型",
+        "cohort": 4,
+        "units": 128,
+        "warranty_months": 12,
+        "known_month": 4
+      },
+      {
+        "product": "标准型",
+        "cohort": 5,
+        "units": 160,
+        "warranty_months": 12,
+        "known_month": 5
+      },
+      {
+        "product": "标准型",
+        "cohort": 6,
+        "units": 113,
+        "warranty_months": 12,
+        "known_month": 6
+      },
+      {
+        "product": "标准型",
+        "cohort": 7,
+        "units": 183,
+        "warranty_months": 12,
+        "known_month": 7
+      },
+      {
+        "product": "标准型",
+        "cohort": 8,
+        "units": 190,
+        "warranty_months": 12,
+        "known_month": 8
+      },
+      {
+        "product": "标准型",
+        "cohort": 9,
+        "units": 178,
+        "warranty_months": 12,
+        "known_month": 9
+      },
+      {
+        "product": "标准型",
+        "cohort": 10,
+        "units": 100,
+        "warranty_months": 12,
+        "known_month": 10
+      },
+      {
+        "product": "标准型",
+        "cohort": 11,
+        "units": 178,
+        "warranty_months": 12,
+        "known_month": 11
+      },
+      {
+        "product": "标准型",
+        "cohort": 12,
+        "units": 171,
+        "warranty_months": 12,
+        "known_month": 12
+      },
+      {
+        "product": "标准型",
+        "cohort": 13,
+        "units": 131,
+        "warranty_months": 12,
+        "known_month": 13
+      },
+      {
+        "product": "标准型",
+        "cohort": 14,
+        "units": 129,
+        "warranty_months": 12,
+        "known_month": 14
+      },
+      {
+        "product": "标准型",
+        "cohort": 15,
+        "units": 135,
+        "warranty_months": 12,
+        "known_month": 15
+      },
+      {
+        "product": "标准型",
+        "cohort": 16,
+        "units": 136,
+        "warranty_months": 12,
+        "known_month": 16
+      },
+      {
+        "product": "标准型",
+        "cohort": 17,
+        "units": 115,
+        "warranty_months": 12,
+        "known_month": 17
+      },
+      {
+        "product": "标准型",
+        "cohort": 18,
+        "units": 191,
+        "warranty_months": 12,
+        "known_month": 18
+      },
+      {
+        "product": "标准型",
+        "cohort": 19,
+        "units": 134,
+        "warranty_months": 12,
+        "known_month": 19
+      },
+      {
+        "product": "标准型",
+        "cohort": 20,
+        "units": 180,
+        "warranty_months": 12,
+        "known_month": 20
+      },
+      {
+        "product": "标准型",
+        "cohort": 21,
+        "units": 187,
+        "warranty_months": 12,
+        "known_month": 21
+      },
+      {
+        "product": "标准型",
+        "cohort": 22,
+        "units": 182,
+        "warranty_months": 12,
+        "known_month": 22
+      },
+      {
+        "product": "加强型",
+        "cohort": 1,
+        "units": 102,
+        "warranty_months": 12,
+        "known_month": 1
+      },
+      {
+        "product": "加强型",
+        "cohort": 2,
+        "units": 162,
+        "warranty_months": 12,
+        "known_month": 2
+      },
+      {
+        "product": "加强型",
+        "cohort": 3,
+        "units": 155,
+        "warranty_months": 12,
+        "known_month": 3
+      },
+      {
+        "product": "加强型",
+        "cohort": 4,
+        "units": 135,
+        "warranty_months": 12,
+        "known_month": 4
+      },
+      {
+        "product": "加强型",
+        "cohort": 5,
+        "units": 121,
+        "warranty_months": 12,
+        "known_month": 5
+      },
+      {
+        "product": "加强型",
+        "cohort": 6,
+        "units": 187,
+        "warranty_months": 12,
+        "known_month": 6
+      },
+      {
+        "product": "加强型",
+        "cohort": 7,
+        "units": 189,
+        "warranty_months": 12,
+        "known_month": 7
+      },
+      {
+        "product": "加强型",
+        "cohort": 8,
+        "units": 150,
+        "warranty_months": 12,
+        "known_month": 8
+      },
+      {
+        "product": "加强型",
+        "cohort": 9,
+        "units": 193,
+        "warranty_months": 12,
+        "known_month": 9
+      },
+      {
+        "product": "加强型",
+        "cohort": 10,
+        "units": 146,
+        "warranty_months": 12,
+        "known_month": 10
+      },
+      {
+        "product": "加强型",
+        "cohort": 11,
+        "units": 133,
+        "warranty_months": 12,
+        "known_month": 11
+      },
+      {
+        "product": "加强型",
+        "cohort": 12,
+        "units": 110,
+        "warranty_months": 12,
+        "known_month": 12
+      },
+      {
+        "product": "加强型",
+        "cohort": 13,
+        "units": 182,
+        "warranty_months": 12,
+        "known_month": 13
+      },
+      {
+        "product": "加强型",
+        "cohort": 14,
+        "units": 169,
+        "warranty_months": 12,
+        "known_month": 14
+      },
+      {
+        "product": "加强型",
+        "cohort": 15,
+        "units": 142,
+        "warranty_months": 12,
+        "known_month": 15
+      },
+      {
+        "product": "加强型",
+        "cohort": 16,
+        "units": 133,
+        "warranty_months": 12,
+        "known_month": 16
+      },
+      {
+        "product": "加强型",
+        "cohort": 17,
+        "units": 195,
+        "warranty_months": 12,
+        "known_month": 17
+      },
+      {
+        "product": "加强型",
+        "cohort": 18,
+        "units": 167,
+        "warranty_months": 12,
+        "known_month": 18
+      },
+      {
+        "product": "加强型",
+        "cohort": 19,
+        "units": 182,
+        "warranty_months": 12,
+        "known_month": 19
+      },
+      {
+        "product": "加强型",
+        "cohort": 20,
+        "units": 129,
+        "warranty_months": 12,
+        "known_month": 20
+      },
+      {
+        "product": "加强型",
+        "cohort": 21,
+        "units": 189,
+        "warranty_months": 12,
+        "known_month": 21
+      },
+      {
+        "product": "加强型",
+        "cohort": 22,
+        "units": 194,
+        "warranty_months": 12,
+        "known_month": 22
+      }
+    ],
+    "cases": [
+      {
+        "claim_id": "c000",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c000",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c000",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 6,
+        "status": "reopened",
+        "status_at": 11,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c001",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 3,
+        "status": "open",
+        "status_at": 3,
+        "known_month": 3
+      },
+      {
+        "claim_id": "c001",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 3,
+        "status": "closed",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c002",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 8,
+        "status": "open",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c002",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 8,
+        "status": "closed",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c003",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c003",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c004",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c004",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c005",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c005",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c006",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c006",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c007",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c007",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c008",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c008",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c009",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c009",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c010",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c010",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c011",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c011",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c011",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 17,
+        "status": "reopened",
+        "status_at": 22,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c012",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c012",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c013",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c013",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c014",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c014",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c015",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c015",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c016",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c016",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c017",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c017",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c018",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c018",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c019",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 23,
+        "status": "open",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c019",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 23,
+        "status": "closed",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c020",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 23,
+        "status": "open",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c020",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 23,
+        "status": "closed",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c021",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c021",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c022",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c022",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c022",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "reopened",
+        "status_at": 10,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c023",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 8,
+        "status": "open",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c023",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 8,
+        "status": "closed",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c024",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c024",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c025",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c025",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c026",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c026",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c027",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c027",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c028",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c028",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c029",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c029",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c030",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c030",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c031",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c031",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c032",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c032",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c033",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c033",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c033",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 18,
+        "status": "reopened",
+        "status_at": 23,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c034",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c034",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c035",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c035",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c036",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c036",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c037",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c037",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c038",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c038",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c039",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c039",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c040",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c040",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c041",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c041",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c042",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 4,
+        "status": "open",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c042",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 4,
+        "status": "closed",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c043",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 8,
+        "status": "open",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c043",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 8,
+        "status": "closed",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c044",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c044",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c044",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 6,
+        "status": "reopened",
+        "status_at": 11,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c045",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c045",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c046",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c046",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c047",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 8,
+        "status": "open",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c047",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 8,
+        "status": "closed",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c048",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c048",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c049",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c049",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c050",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c050",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c051",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c051",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c052",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 16,
+        "status": "open",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c052",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 16,
+        "status": "closed",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c053",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c053",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c054",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c054",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c055",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c055",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c055",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 18,
+        "status": "reopened",
+        "status_at": 23,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c056",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c056",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c057",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c057",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c058",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c058",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c059",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c059",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c060",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c060",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c061",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 25,
+        "status": "open",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c061",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 25,
+        "status": "closed",
+        "status_at": 27,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c062",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c062",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c063",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c063",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c064",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c064",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c065",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "open",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c065",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "closed",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c066",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c066",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c066",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "reopened",
+        "status_at": 10,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c067",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c067",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c068",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c068",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c069",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c069",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c070",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c070",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c071",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c071",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c072",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c072",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c073",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 12,
+        "status": "open",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c073",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 12,
+        "status": "closed",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c074",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c074",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c075",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c075",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c076",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c076",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c077",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c077",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c077",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "reopened",
+        "status_at": 24,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c078",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c078",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c079",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c079",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c080",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c080",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c081",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c081",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c082",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c082",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c083",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 23,
+        "status": "open",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c083",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 23,
+        "status": "closed",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c084",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 2,
+        "status": "open",
+        "status_at": 2,
+        "known_month": 2
+      },
+      {
+        "claim_id": "c084",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 2,
+        "status": "closed",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c085",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 6,
+        "status": "open",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c085",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 6,
+        "status": "closed",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c086",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c086",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c087",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c087",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c088",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c088",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c088",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 7,
+        "status": "reopened",
+        "status_at": 12,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c089",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 12,
+        "status": "open",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c089",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 12,
+        "status": "closed",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c090",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c090",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c091",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c091",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c092",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c092",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c093",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c093",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c094",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c094",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c095",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 13,
+        "status": "open",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c095",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 13,
+        "status": "closed",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c096",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c096",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c097",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c097",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c098",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c098",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c099",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c099",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c099",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 18,
+        "status": "reopened",
+        "status_at": 23,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c100",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c100",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c101",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c101",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c102",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 25,
+        "status": "open",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c102",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 25,
+        "status": "closed",
+        "status_at": 27,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c103",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c103",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c104",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c104",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c105",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c105",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c106",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c106",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c107",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "open",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c107",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "closed",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c108",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c108",
+        "product": "加强型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c109",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 8,
+        "status": "open",
+        "status_at": 8,
+        "known_month": 8
+      },
+      {
+        "claim_id": "c109",
+        "product": "标准型",
+        "cohort": 5,
+        "reported_month": 8,
+        "status": "closed",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c110",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c110",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c110",
+        "product": "加强型",
+        "cohort": 6,
+        "reported_month": 7,
+        "status": "reopened",
+        "status_at": 12,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c111",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c111",
+        "product": "标准型",
+        "cohort": 7,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c112",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 12,
+        "status": "open",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c112",
+        "product": "加强型",
+        "cohort": 8,
+        "reported_month": 12,
+        "status": "closed",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c113",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c113",
+        "product": "标准型",
+        "cohort": 9,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c114",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c114",
+        "product": "加强型",
+        "cohort": 10,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c115",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c115",
+        "product": "标准型",
+        "cohort": 11,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c116",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c116",
+        "product": "加强型",
+        "cohort": 12,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c117",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 16,
+        "status": "open",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c117",
+        "product": "标准型",
+        "cohort": 13,
+        "reported_month": 16,
+        "status": "closed",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c118",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c118",
+        "product": "加强型",
+        "cohort": 14,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c119",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "open",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c119",
+        "product": "标准型",
+        "cohort": 15,
+        "reported_month": 19,
+        "status": "closed",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c120",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "open",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c120",
+        "product": "加强型",
+        "cohort": 16,
+        "reported_month": 17,
+        "status": "closed",
+        "status_at": 19,
+        "known_month": 19
+      },
+      {
+        "claim_id": "c121",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c121",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c121",
+        "product": "标准型",
+        "cohort": 17,
+        "reported_month": 18,
+        "status": "reopened",
+        "status_at": 23,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c122",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 23,
+        "status": "open",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c122",
+        "product": "加强型",
+        "cohort": 18,
+        "reported_month": 23,
+        "status": "closed",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c123",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c123",
+        "product": "标准型",
+        "cohort": 19,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c124",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 24,
+        "status": "open",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c124",
+        "product": "加强型",
+        "cohort": 20,
+        "reported_month": 24,
+        "status": "closed",
+        "status_at": 26,
+        "known_month": 26
+      },
+      {
+        "claim_id": "c125",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 27,
+        "status": "open",
+        "status_at": 27,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c125",
+        "product": "标准型",
+        "cohort": 21,
+        "reported_month": 27,
+        "status": "closed",
+        "status_at": 29,
+        "known_month": 29
+      },
+      {
+        "claim_id": "c126",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c126",
+        "product": "加强型",
+        "cohort": 1,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c127",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 4,
+        "status": "open",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c127",
+        "product": "标准型",
+        "cohort": 2,
+        "reported_month": 4,
+        "status": "closed",
+        "status_at": 6,
+        "known_month": 6
+      },
+      {
+        "claim_id": "c128",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 7,
+        "status": "open",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c128",
+        "product": "加强型",
+        "cohort": 3,
+        "reported_month": 7,
+        "status": "closed",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c129",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c129",
+        "product": "标准型",
+        "cohort": 4,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c130",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 11,
+        "status": "open",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c130",
+        "product": "加强型",
+        "cohort": 5,
+        "reported_month": 11,
+        "status": "closed",
+        "status_at": 13,
+        "known_month": 13
+      },
+      {
+        "claim_id": "c131",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 9,
+        "status": "open",
+        "status_at": 9,
+        "known_month": 9
+      },
+      {
+        "claim_id": "c131",
+        "product": "标准型",
+        "cohort": 6,
+        "reported_month": 9,
+        "status": "closed",
+        "status_at": 11,
+        "known_month": 11
+      },
+      {
+        "claim_id": "c132",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 10,
+        "status": "open",
+        "status_at": 10,
+        "known_month": 10
+      },
+      {
+        "claim_id": "c132",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 10,
+        "status": "closed",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c132",
+        "product": "加强型",
+        "cohort": 7,
+        "reported_month": 10,
+        "status": "reopened",
+        "status_at": 15,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c133",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c133",
+        "product": "标准型",
+        "cohort": 8,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c134",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 12,
+        "status": "open",
+        "status_at": 12,
+        "known_month": 12
+      },
+      {
+        "claim_id": "c134",
+        "product": "加强型",
+        "cohort": 9,
+        "reported_month": 12,
+        "status": "closed",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c135",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 14,
+        "status": "open",
+        "status_at": 14,
+        "known_month": 14
+      },
+      {
+        "claim_id": "c135",
+        "product": "标准型",
+        "cohort": 10,
+        "reported_month": 14,
+        "status": "closed",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c136",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c136",
+        "product": "加强型",
+        "cohort": 11,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c137",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 16,
+        "status": "open",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c137",
+        "product": "标准型",
+        "cohort": 12,
+        "reported_month": 16,
+        "status": "closed",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c138",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 15,
+        "status": "open",
+        "status_at": 15,
+        "known_month": 15
+      },
+      {
+        "claim_id": "c138",
+        "product": "加强型",
+        "cohort": 13,
+        "reported_month": 15,
+        "status": "closed",
+        "status_at": 17,
+        "known_month": 17
+      },
+      {
+        "claim_id": "c139",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 16,
+        "status": "open",
+        "status_at": 16,
+        "known_month": 16
+      },
+      {
+        "claim_id": "c139",
+        "product": "标准型",
+        "cohort": 14,
+        "reported_month": 16,
+        "status": "closed",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c140",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 20,
+        "status": "open",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c140",
+        "product": "加强型",
+        "cohort": 15,
+        "reported_month": 20,
+        "status": "closed",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c141",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 18,
+        "status": "open",
+        "status_at": 18,
+        "known_month": 18
+      },
+      {
+        "claim_id": "c141",
+        "product": "标准型",
+        "cohort": 16,
+        "reported_month": 18,
+        "status": "closed",
+        "status_at": 20,
+        "known_month": 20
+      },
+      {
+        "claim_id": "c142",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 23,
+        "status": "open",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c142",
+        "product": "加强型",
+        "cohort": 17,
+        "reported_month": 23,
+        "status": "closed",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c143",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 21,
+        "status": "open",
+        "status_at": 21,
+        "known_month": 21
+      },
+      {
+        "claim_id": "c143",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 21,
+        "status": "closed",
+        "status_at": 23,
+        "known_month": 23
+      },
+      {
+        "claim_id": "c143",
+        "product": "标准型",
+        "cohort": 18,
+        "reported_month": 21,
+        "status": "reopened",
+        "status_at": 26,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c144",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 25,
+        "status": "open",
+        "status_at": 25,
+        "known_month": 25
+      },
+      {
+        "claim_id": "c144",
+        "product": "加强型",
+        "cohort": 19,
+        "reported_month": 25,
+        "status": "closed",
+        "status_at": 27,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c145",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 22,
+        "status": "open",
+        "status_at": 22,
+        "known_month": 22
+      },
+      {
+        "claim_id": "c145",
+        "product": "标准型",
+        "cohort": 20,
+        "reported_month": 22,
+        "status": "closed",
+        "status_at": 24,
+        "known_month": 24
+      },
+      {
+        "claim_id": "c146",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 27,
+        "status": "open",
+        "status_at": 27,
+        "known_month": 27
+      },
+      {
+        "claim_id": "c146",
+        "product": "加强型",
+        "cohort": 21,
+        "reported_month": 27,
+        "status": "closed",
+        "status_at": 29,
+        "known_month": 29
+      },
+      {
+        "claim_id": "c147",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 2,
+        "status": "open",
+        "status_at": 2,
+        "known_month": 2
+      },
+      {
+        "claim_id": "c147",
+        "product": "标准型",
+        "cohort": 1,
+        "reported_month": 2,
+        "status": "closed",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c148",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "open",
+        "status_at": 5,
+        "known_month": 5
+      },
+      {
+        "claim_id": "c148",
+        "product": "加强型",
+        "cohort": 2,
+        "reported_month": 5,
+        "status": "closed",
+        "status_at": 7,
+        "known_month": 7
+      },
+      {
+        "claim_id": "c149",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "open",
+        "status_at": 4,
+        "known_month": 4
+      },
+      {
+        "claim_id": "c149",
+        "product": "标准型",
+        "cohort": 3,
+        "reported_month": 4,
+        "status": "closed",
+        "status_at": 6,
+        "known_month": 6
+      }
+    ],
+    "transactions": [
+      {
+        "transaction": "c000-p",
+        "claim_id": "c000",
+        "signed_amount": 833.83,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c000-r",
+        "claim_id": "c000",
+        "signed_amount": -40,
+        "effective_month": 10,
+        "known_month": 12
+      },
+      {
+        "transaction": "c001-p",
+        "claim_id": "c001",
+        "signed_amount": 213.16,
+        "effective_month": 4,
+        "known_month": 5
+      },
+      {
+        "transaction": "c002-p",
+        "claim_id": "c002",
+        "signed_amount": 300.3,
+        "effective_month": 9,
+        "known_month": 10
+      },
+      {
+        "transaction": "c003-p",
+        "claim_id": "c003",
+        "signed_amount": 157.45,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c004-p",
+        "claim_id": "c004",
+        "signed_amount": 575.15,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c005-p",
+        "claim_id": "c005",
+        "signed_amount": 114.08,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c006-p",
+        "claim_id": "c006",
+        "signed_amount": 313.34,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c007-p",
+        "claim_id": "c007",
+        "signed_amount": 699.36,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c008-p",
+        "claim_id": "c008",
+        "signed_amount": 137.31,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c009-p",
+        "claim_id": "c009",
+        "signed_amount": 449.58,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c010-p",
+        "claim_id": "c010",
+        "signed_amount": 456.54,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c011-p",
+        "claim_id": "c011",
+        "signed_amount": 146.64,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c011-r",
+        "claim_id": "c011",
+        "signed_amount": -40,
+        "effective_month": 21,
+        "known_month": 23
+      },
+      {
+        "transaction": "c012-p",
+        "claim_id": "c012",
+        "signed_amount": 321.51,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c013-p",
+        "claim_id": "c013",
+        "signed_amount": 557.28,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c014-p",
+        "claim_id": "c014",
+        "signed_amount": 403.42,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c015-p",
+        "claim_id": "c015",
+        "signed_amount": 199.06,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c016-p",
+        "claim_id": "c016",
+        "signed_amount": 673.4,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c017-p",
+        "claim_id": "c017",
+        "signed_amount": 502.51,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c018-p",
+        "claim_id": "c018",
+        "signed_amount": 830.06,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c019-p",
+        "claim_id": "c019",
+        "signed_amount": 650.0,
+        "effective_month": 24,
+        "known_month": 25
+      },
+      {
+        "transaction": "c020-p",
+        "claim_id": "c020",
+        "signed_amount": 682.29,
+        "effective_month": 24,
+        "known_month": 25
+      },
+      {
+        "transaction": "c021-p",
+        "claim_id": "c021",
+        "signed_amount": 142.54,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c022-p",
+        "claim_id": "c022",
+        "signed_amount": 270.93,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c022-r",
+        "claim_id": "c022",
+        "signed_amount": -40,
+        "effective_month": 9,
+        "known_month": 11
+      },
+      {
+        "transaction": "c023-p",
+        "claim_id": "c023",
+        "signed_amount": 805.2,
+        "effective_month": 9,
+        "known_month": 10
+      },
+      {
+        "transaction": "c024-p",
+        "claim_id": "c024",
+        "signed_amount": 670.01,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c025-p",
+        "claim_id": "c025",
+        "signed_amount": 142.96,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c026-p",
+        "claim_id": "c026",
+        "signed_amount": 716.37,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c027-p",
+        "claim_id": "c027",
+        "signed_amount": 652.5,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c028-p",
+        "claim_id": "c028",
+        "signed_amount": 790.81,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c029-p",
+        "claim_id": "c029",
+        "signed_amount": 629.29,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c030-p",
+        "claim_id": "c030",
+        "signed_amount": 215.49,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c031-p",
+        "claim_id": "c031",
+        "signed_amount": 592.79,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c032-p",
+        "claim_id": "c032",
+        "signed_amount": 468.77,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c033-p",
+        "claim_id": "c033",
+        "signed_amount": 607.11,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c033-r",
+        "claim_id": "c033",
+        "signed_amount": -40,
+        "effective_month": 22,
+        "known_month": 24
+      },
+      {
+        "transaction": "c034-p",
+        "claim_id": "c034",
+        "signed_amount": 554.31,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c035-p",
+        "claim_id": "c035",
+        "signed_amount": 424.41,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c036-p",
+        "claim_id": "c036",
+        "signed_amount": 91.49,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c037-p",
+        "claim_id": "c037",
+        "signed_amount": 283.55,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c038-p",
+        "claim_id": "c038",
+        "signed_amount": 515.56,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c039-p",
+        "claim_id": "c039",
+        "signed_amount": 144.87,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c040-p",
+        "claim_id": "c040",
+        "signed_amount": 576.78,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c041-p",
+        "claim_id": "c041",
+        "signed_amount": 429.61,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c042-p",
+        "claim_id": "c042",
+        "signed_amount": 388.31,
+        "effective_month": 5,
+        "known_month": 6
+      },
+      {
+        "transaction": "c043-p",
+        "claim_id": "c043",
+        "signed_amount": 489.38,
+        "effective_month": 9,
+        "known_month": 10
+      },
+      {
+        "transaction": "c044-p",
+        "claim_id": "c044",
+        "signed_amount": 739.13,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c044-r",
+        "claim_id": "c044",
+        "signed_amount": -40,
+        "effective_month": 10,
+        "known_month": 12
+      },
+      {
+        "transaction": "c045-p",
+        "claim_id": "c045",
+        "signed_amount": 842.72,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c046-p",
+        "claim_id": "c046",
+        "signed_amount": 752.03,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c047-p",
+        "claim_id": "c047",
+        "signed_amount": 630.81,
+        "effective_month": 9,
+        "known_month": 10
+      },
+      {
+        "transaction": "c048-p",
+        "claim_id": "c048",
+        "signed_amount": 792.35,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c049-p",
+        "claim_id": "c049",
+        "signed_amount": 517.17,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c050-p",
+        "claim_id": "c050",
+        "signed_amount": 696.22,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c051-p",
+        "claim_id": "c051",
+        "signed_amount": 324.47,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c052-p",
+        "claim_id": "c052",
+        "signed_amount": 650.73,
+        "effective_month": 17,
+        "known_month": 18
+      },
+      {
+        "transaction": "c053-p",
+        "claim_id": "c053",
+        "signed_amount": 565.29,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c054-p",
+        "claim_id": "c054",
+        "signed_amount": 624.41,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c055-p",
+        "claim_id": "c055",
+        "signed_amount": 684.16,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c055-r",
+        "claim_id": "c055",
+        "signed_amount": -40,
+        "effective_month": 22,
+        "known_month": 24
+      },
+      {
+        "transaction": "c056-p",
+        "claim_id": "c056",
+        "signed_amount": 449.88,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c057-p",
+        "claim_id": "c057",
+        "signed_amount": 768.4,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c058-p",
+        "claim_id": "c058",
+        "signed_amount": 144.52,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c059-p",
+        "claim_id": "c059",
+        "signed_amount": 777.49,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c060-p",
+        "claim_id": "c060",
+        "signed_amount": 496.2,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c061-p",
+        "claim_id": "c061",
+        "signed_amount": 233.93,
+        "effective_month": 26,
+        "known_month": 27
+      },
+      {
+        "transaction": "c062-p",
+        "claim_id": "c062",
+        "signed_amount": 471.36,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c063-p",
+        "claim_id": "c063",
+        "signed_amount": 106.58,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c064-p",
+        "claim_id": "c064",
+        "signed_amount": 317.72,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c065-p",
+        "claim_id": "c065",
+        "signed_amount": 164.45,
+        "effective_month": 5,
+        "known_month": 6
+      },
+      {
+        "transaction": "c066-p",
+        "claim_id": "c066",
+        "signed_amount": 724.3,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c066-r",
+        "claim_id": "c066",
+        "signed_amount": -40,
+        "effective_month": 9,
+        "known_month": 11
+      },
+      {
+        "transaction": "c067-p",
+        "claim_id": "c067",
+        "signed_amount": 842.87,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c068-p",
+        "claim_id": "c068",
+        "signed_amount": 271.65,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c069-p",
+        "claim_id": "c069",
+        "signed_amount": 731.46,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c070-p",
+        "claim_id": "c070",
+        "signed_amount": 630.07,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c071-p",
+        "claim_id": "c071",
+        "signed_amount": 637.98,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c072-p",
+        "claim_id": "c072",
+        "signed_amount": 477.96,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c073-p",
+        "claim_id": "c073",
+        "signed_amount": 691.16,
+        "effective_month": 13,
+        "known_month": 14
+      },
+      {
+        "transaction": "c074-p",
+        "claim_id": "c074",
+        "signed_amount": 744.6,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c075-p",
+        "claim_id": "c075",
+        "signed_amount": 390.76,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c076-p",
+        "claim_id": "c076",
+        "signed_amount": 229.51,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c077-p",
+        "claim_id": "c077",
+        "signed_amount": 692.94,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c077-r",
+        "claim_id": "c077",
+        "signed_amount": -40,
+        "effective_month": 23,
+        "known_month": 25
+      },
+      {
+        "transaction": "c078-p",
+        "claim_id": "c078",
+        "signed_amount": 776.54,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c079-p",
+        "claim_id": "c079",
+        "signed_amount": 299.59,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c080-p",
+        "claim_id": "c080",
+        "signed_amount": 802.2,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c081-p",
+        "claim_id": "c081",
+        "signed_amount": 565.84,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c082-p",
+        "claim_id": "c082",
+        "signed_amount": 299.84,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c083-p",
+        "claim_id": "c083",
+        "signed_amount": 827.24,
+        "effective_month": 24,
+        "known_month": 25
+      },
+      {
+        "transaction": "c084-p",
+        "claim_id": "c084",
+        "signed_amount": 850.66,
+        "effective_month": 3,
+        "known_month": 4
+      },
+      {
+        "transaction": "c085-p",
+        "claim_id": "c085",
+        "signed_amount": 552.89,
+        "effective_month": 7,
+        "known_month": 8
+      },
+      {
+        "transaction": "c086-p",
+        "claim_id": "c086",
+        "signed_amount": 278.75,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c087-p",
+        "claim_id": "c087",
+        "signed_amount": 841.34,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c088-p",
+        "claim_id": "c088",
+        "signed_amount": 739.52,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c088-r",
+        "claim_id": "c088",
+        "signed_amount": -40,
+        "effective_month": 11,
+        "known_month": 13
+      },
+      {
+        "transaction": "c089-p",
+        "claim_id": "c089",
+        "signed_amount": 727.83,
+        "effective_month": 13,
+        "known_month": 14
+      },
+      {
+        "transaction": "c090-p",
+        "claim_id": "c090",
+        "signed_amount": 127.78,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c091-p",
+        "claim_id": "c091",
+        "signed_amount": 559.04,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c092-p",
+        "claim_id": "c092",
+        "signed_amount": 170.52,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c093-p",
+        "claim_id": "c093",
+        "signed_amount": 199.27,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c094-p",
+        "claim_id": "c094",
+        "signed_amount": 340.18,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c095-p",
+        "claim_id": "c095",
+        "signed_amount": 837.79,
+        "effective_month": 14,
+        "known_month": 15
+      },
+      {
+        "transaction": "c096-p",
+        "claim_id": "c096",
+        "signed_amount": 870.03,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c097-p",
+        "claim_id": "c097",
+        "signed_amount": 342.62,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c098-p",
+        "claim_id": "c098",
+        "signed_amount": 655.85,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c099-p",
+        "claim_id": "c099",
+        "signed_amount": 859.34,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c099-r",
+        "claim_id": "c099",
+        "signed_amount": -40,
+        "effective_month": 22,
+        "known_month": 24
+      },
+      {
+        "transaction": "c100-p",
+        "claim_id": "c100",
+        "signed_amount": 122.76,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c101-p",
+        "claim_id": "c101",
+        "signed_amount": 296.97,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c102-p",
+        "claim_id": "c102",
+        "signed_amount": 556.53,
+        "effective_month": 26,
+        "known_month": 27
+      },
+      {
+        "transaction": "c103-p",
+        "claim_id": "c103",
+        "signed_amount": 495.59,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c104-p",
+        "claim_id": "c104",
+        "signed_amount": 565.5,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c105-p",
+        "claim_id": "c105",
+        "signed_amount": 396.8,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c106-p",
+        "claim_id": "c106",
+        "signed_amount": 506.21,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c107-p",
+        "claim_id": "c107",
+        "signed_amount": 247.85,
+        "effective_month": 5,
+        "known_month": 6
+      },
+      {
+        "transaction": "c108-p",
+        "claim_id": "c108",
+        "signed_amount": 581.73,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c109-p",
+        "claim_id": "c109",
+        "signed_amount": 463.59,
+        "effective_month": 9,
+        "known_month": 10
+      },
+      {
+        "transaction": "c110-p",
+        "claim_id": "c110",
+        "signed_amount": 393.13,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c110-r",
+        "claim_id": "c110",
+        "signed_amount": -40,
+        "effective_month": 11,
+        "known_month": 13
+      },
+      {
+        "transaction": "c111-p",
+        "claim_id": "c111",
+        "signed_amount": 181.22,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c112-p",
+        "claim_id": "c112",
+        "signed_amount": 467.19,
+        "effective_month": 13,
+        "known_month": 14
+      },
+      {
+        "transaction": "c113-p",
+        "claim_id": "c113",
+        "signed_amount": 651.38,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c114-p",
+        "claim_id": "c114",
+        "signed_amount": 802.92,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c115-p",
+        "claim_id": "c115",
+        "signed_amount": 176.22,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c116-p",
+        "claim_id": "c116",
+        "signed_amount": 248.4,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c117-p",
+        "claim_id": "c117",
+        "signed_amount": 236.48,
+        "effective_month": 17,
+        "known_month": 18
+      },
+      {
+        "transaction": "c118-p",
+        "claim_id": "c118",
+        "signed_amount": 754.91,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c119-p",
+        "claim_id": "c119",
+        "signed_amount": 496.09,
+        "effective_month": 20,
+        "known_month": 21
+      },
+      {
+        "transaction": "c120-p",
+        "claim_id": "c120",
+        "signed_amount": 269.4,
+        "effective_month": 18,
+        "known_month": 19
+      },
+      {
+        "transaction": "c121-p",
+        "claim_id": "c121",
+        "signed_amount": 502.08,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c121-r",
+        "claim_id": "c121",
+        "signed_amount": -40,
+        "effective_month": 22,
+        "known_month": 24
+      },
+      {
+        "transaction": "c122-p",
+        "claim_id": "c122",
+        "signed_amount": 546.5,
+        "effective_month": 24,
+        "known_month": 25
+      },
+      {
+        "transaction": "c123-p",
+        "claim_id": "c123",
+        "signed_amount": 850.67,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c124-p",
+        "claim_id": "c124",
+        "signed_amount": 795.11,
+        "effective_month": 25,
+        "known_month": 26
+      },
+      {
+        "transaction": "c125-p",
+        "claim_id": "c125",
+        "signed_amount": 722.28,
+        "effective_month": 28,
+        "known_month": 29
+      },
+      {
+        "transaction": "c126-p",
+        "claim_id": "c126",
+        "signed_amount": 94.51,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c127-p",
+        "claim_id": "c127",
+        "signed_amount": 666.81,
+        "effective_month": 5,
+        "known_month": 6
+      },
+      {
+        "transaction": "c128-p",
+        "claim_id": "c128",
+        "signed_amount": 159.17,
+        "effective_month": 8,
+        "known_month": 9
+      },
+      {
+        "transaction": "c129-p",
+        "claim_id": "c129",
+        "signed_amount": 706.49,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c130-p",
+        "claim_id": "c130",
+        "signed_amount": 534.44,
+        "effective_month": 12,
+        "known_month": 13
+      },
+      {
+        "transaction": "c131-p",
+        "claim_id": "c131",
+        "signed_amount": 638.28,
+        "effective_month": 10,
+        "known_month": 11
+      },
+      {
+        "transaction": "c132-p",
+        "claim_id": "c132",
+        "signed_amount": 236.96,
+        "effective_month": 11,
+        "known_month": 12
+      },
+      {
+        "transaction": "c132-r",
+        "claim_id": "c132",
+        "signed_amount": -40,
+        "effective_month": 14,
+        "known_month": 16
+      },
+      {
+        "transaction": "c133-p",
+        "claim_id": "c133",
+        "signed_amount": 161.63,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c134-p",
+        "claim_id": "c134",
+        "signed_amount": 121.1,
+        "effective_month": 13,
+        "known_month": 14
+      },
+      {
+        "transaction": "c135-p",
+        "claim_id": "c135",
+        "signed_amount": 721.58,
+        "effective_month": 15,
+        "known_month": 16
+      },
+      {
+        "transaction": "c136-p",
+        "claim_id": "c136",
+        "signed_amount": 378.73,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c137-p",
+        "claim_id": "c137",
+        "signed_amount": 449.26,
+        "effective_month": 17,
+        "known_month": 18
+      },
+      {
+        "transaction": "c138-p",
+        "claim_id": "c138",
+        "signed_amount": 826.14,
+        "effective_month": 16,
+        "known_month": 17
+      },
+      {
+        "transaction": "c139-p",
+        "claim_id": "c139",
+        "signed_amount": 264.51,
+        "effective_month": 17,
+        "known_month": 18
+      },
+      {
+        "transaction": "c140-p",
+        "claim_id": "c140",
+        "signed_amount": 672.12,
+        "effective_month": 21,
+        "known_month": 22
+      },
+      {
+        "transaction": "c141-p",
+        "claim_id": "c141",
+        "signed_amount": 593.71,
+        "effective_month": 19,
+        "known_month": 20
+      },
+      {
+        "transaction": "c142-p",
+        "claim_id": "c142",
+        "signed_amount": 106.31,
+        "effective_month": 24,
+        "known_month": 25
+      },
+      {
+        "transaction": "c143-p",
+        "claim_id": "c143",
+        "signed_amount": 718.09,
+        "effective_month": 22,
+        "known_month": 23
+      },
+      {
+        "transaction": "c143-r",
+        "claim_id": "c143",
+        "signed_amount": -40,
+        "effective_month": 25,
+        "known_month": 27
+      },
+      {
+        "transaction": "c144-p",
+        "claim_id": "c144",
+        "signed_amount": 261.52,
+        "effective_month": 26,
+        "known_month": 27
+      },
+      {
+        "transaction": "c145-p",
+        "claim_id": "c145",
+        "signed_amount": 410.21,
+        "effective_month": 23,
+        "known_month": 24
+      },
+      {
+        "transaction": "c146-p",
+        "claim_id": "c146",
+        "signed_amount": 92.57,
+        "effective_month": 28,
+        "known_month": 29
+      },
+      {
+        "transaction": "c147-p",
+        "claim_id": "c147",
+        "signed_amount": 646.29,
+        "effective_month": 3,
+        "known_month": 4
+      },
+      {
+        "transaction": "c148-p",
+        "claim_id": "c148",
+        "signed_amount": 84.57,
+        "effective_month": 6,
+        "known_month": 7
+      },
+      {
+        "transaction": "c149-p",
+        "claim_id": "c149",
+        "signed_amount": 622.23,
+        "effective_month": 5,
+        "known_month": 6
+      }
+    ],
+    "policies": [
+      {
+        "product": "标准型",
+        "version": "v1",
+        "start_month": 1,
+        "end_month": 15
+      },
+      {
+        "product": "标准型",
+        "version": "v2",
+        "start_month": 15,
+        "end_month": null
+      },
+      {
+        "product": "加强型",
+        "version": "v1",
+        "start_month": 1,
+        "end_month": 15
+      },
+      {
+        "product": "加强型",
+        "version": "v2",
+        "start_month": 15,
+        "end_month": null
+      }
+    ]
+  }
+}
