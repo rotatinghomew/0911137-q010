@@ -1,0 +1,9 @@
+{
+  "name": "claims-development-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "python3 -m claims_development",
+    "test:browser": "python3 tests/browser_smoke.py"
+  }
+}
