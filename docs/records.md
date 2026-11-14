@@ -1,6 +1,6 @@
 # 记录样式
 
-以下为当前业务文件中的实际记录，字段口径见 `data-contract.md`；字段标识保持业务接口写法。
+以下为当前业务文件中的实际记录，字段口径见 `data-contract.md`；字段标识保持业务接口写法。`known_month` 表示该行对分析可见的月份，`status_at` / `effective_month` 是业务发生月份；两者都不会被对方替代。
 
 ### `shipments`
 

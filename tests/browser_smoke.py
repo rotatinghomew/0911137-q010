@@ -38,17 +38,26 @@ def main():
                 page.goto(base)
                 page.wait_for_function("document.querySelector('#status').textContent === '分析已更新'")
                 assert page.locator('#results tbody tr').count() > 0
+                assert page.locator('#scenarios tbody tr').count() > 0
+                assert page.locator('#ranges tbody tr').count() > 0
+                assert page.locator('#diagnostics tbody tr').count() > 0
                 page.locator('#filters select').select_option(catalog['groups'][0])
                 page.get_by_role('button', name='更新分析', exact=True).click()
                 page.wait_for_function("document.querySelector('#status').textContent === '分析已更新'")
-                page.locator('#save input').fill('浏览器业务核对')
+                page.locator('#backtest-form input[name="cutoff"]').fill('24')
+                page.locator('#backtest-form input[name="evaluate"]').fill('48')
+                page.get_by_role('button', name='运行回测').click()
+                page.wait_for_function("document.querySelector('#status').textContent.startsWith('回测已更新')")
+                assert page.locator('#backtest-results tbody tr').count() > 0
+                assert page.locator('#backtest-groups tbody tr').count() > 0
+                page.locator('#save input').fill('浏览器回测核对')
                 page.get_by_role('button', name='保存当前分析').click()
                 page.wait_for_selector('#history button')
                 page.reload()
                 page.wait_for_selector('#history button')
-                page.locator('#history button').click()
-                page.wait_for_function("document.querySelector('#status').textContent.includes('浏览器业务核对')")
-                assert page.locator('#filters select').input_value() == catalog['groups'][0]
+                page.locator('#history button').first.click()
+                page.wait_for_function("document.querySelector('#status').textContent.startsWith('回测已更新')")
+                assert page.locator('#backtest-results tbody tr').count() > 0
                 page.get_by_role('button', name='查看资料').click()
                 page.wait_for_selector('#raw tbody tr')
                 assert not errors, errors

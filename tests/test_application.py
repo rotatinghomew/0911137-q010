@@ -54,6 +54,40 @@ class ApplicationTests(unittest.TestCase):
                 self.get(path)
             self.assertEqual(caught.exception.code, code)
 
+    def test_view_and_backtest_are_separately_frozen(self):
+        view = self.get('/api/view?cutoff=24')
+        self.assertIn('scenarios', view['result'])
+        self.assertIn('ranges', view['result'])
+        backtest = self.get('/api/backtest?cutoff=24&evaluate=48')
+        self.assertEqual(backtest['options']['cutoff'], 24)
+        self.assertEqual(backtest['options']['evaluate'], 48)
+        self.assertIn('by_comparability', backtest['result']['groups'])
+        for kind, options in [('view', {'cutoff': 24, 'group': ''}),
+                              ('backtest', {'cutoff': 24, 'evaluate': 48, 'group': ''})]:
+            payload = {'title': kind, 'options': options, 'kind': kind}
+            request = Request(self.base + '/api/analyses', data=json.dumps(payload).encode(),
+                              headers={'Content-Type': 'application/json'})
+            with urlopen(request) as response:
+                saved = json.load(response)
+            restored = self.get('/api/analyses/' + saved['id'])
+            self.assertEqual(restored['options'], options)
+        self.assertEqual(len(self.get('/api/analyses')), 2)
+
+    def test_backtest_rejects_end_before_start_and_unknown_kind(self):
+        for path in ['/api/backtest?cutoff=30&evaluate=20',
+                     '/api/backtest?cutoff=24&evaluate=48&extra=1',
+                     '/api/backtest?cutoff=24&evaluate=99']:
+            with self.assertRaises(HTTPError) as caught:
+                self.get(path)
+            self.assertEqual(caught.exception.code, 400)
+        payload = {'title': '有效', 'options': {}, 'kind': 'unknown'}
+        request = Request(self.base + '/api/analyses', data=json.dumps(payload).encode(),
+                          headers={'Content-Type': 'application/json'})
+        with self.assertRaises(HTTPError) as caught:
+            urlopen(request)
+        self.assertEqual(caught.exception.code, 400)
+        self.assertEqual(self.get('/api/analyses'), [])
+
     def test_source_is_same_generation(self):
         catalog = self.get('/api/catalog')
         for table, count in catalog['tables'].items():

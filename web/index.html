@@ -4,9 +4,42 @@
 <body>
 <header><span>本地分析应用</span><h1>质保费用发展台</h1><p id="description"></p></header>
 <main>
-<form id="filters"><label>分析时点 <input name="cutoff" type="number" required></label><label>业务范围 <select name="group"></select></label><button type="submit">更新分析</button></form>
+<form id="filters"><label>关账时点 <input name="cutoff" type="number" required></label><label>业务范围 <select name="group"></select></label><button type="submit">更新分析</button></form>
 <p id="status" role="status">正在读取资料</p>
-<section aria-label="当前分析"><h2>当前资料摘要</h2><dl id="summary"></dl><ul id="notes"></ul><p id="digest"></p><div id="results" class="scroll"></div></section>
+
+<section aria-label="当前分析">
+  <h2>批次最终净费用与剩余准备金</h2>
+  <dl id="summary"></dl>
+  <h3>准备金情景</h3>
+  <div id="scenarios" class="scroll"></div>
+  <h3>产品线与联合风险范围</h3>
+  <div id="ranges" class="scroll"></div>
+  <h3>批次明细</h3>
+  <div id="results" class="scroll"></div>
+  <h3>服务政策诊断</h3>
+  <div id="diagnostics" class="scroll"></div>
+  <ul id="notes"></ul>
+  <p id="provenance"></p>
+  <p id="digest"></p>
+</section>
+
+<section aria-label="回测">
+  <h2>历史回测</h2>
+  <p>在历史关账时点重算估计，再用评估时点可见结果检验；历史估计不使用评估期账务。</p>
+  <form id="backtest-form">
+    <label>历史关账时点 <input name="cutoff" type="number" required></label>
+    <label>评估时点 <input name="evaluate" type="number" required></label>
+    <label>业务范围 <select name="group"></select></label>
+    <button type="submit">运行回测</button>
+  </form>
+  <dl id="backtest-summary"></dl>
+  <h3>分组检验</h3>
+  <div id="backtest-groups" class="scroll"></div>
+  <h3>逐批结果</h3>
+  <div id="backtest-results" class="scroll"></div>
+  <ul id="backtest-notes"></ul>
+</section>
+
 <section aria-label="保存的分析"><h2>分析版本</h2><form id="save"><label>版本名称 <input name="title" required maxlength="100" value="经营讨论"></label><button type="submit">保存当前分析</button></form><ul id="history"></ul></section>
 <section aria-label="原始资料"><h2>资料查阅</h2><label>资料表 <select id="tables"></select></label><button id="source" type="button">查看资料</button><div id="raw" class="scroll"></div></section>
 </main><script src="/app.js" defer></script>

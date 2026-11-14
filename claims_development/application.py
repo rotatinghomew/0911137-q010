@@ -8,7 +8,7 @@ import threading
 from urllib.parse import parse_qs, urlsplit
 from urllib.request import Request, urlopen
 
-from .domain import run
+from .domain import backtest, run
 from .storage import AnalysisStore, read_dataset
 
 
@@ -26,24 +26,43 @@ class Application:
         return {**data['meta'], 'digest': digest, 'tables': {name: len(rows) for name, rows in data['tables'].items()}}
 
     def analyze(self, supplied):
-        if not isinstance(supplied, dict) or set(supplied) - {'cutoff', 'group'}:
-            raise ValueError('只接受 cutoff 和 group 筛选项')
+        values = self._validated(supplied, ('cutoff', 'group'),
+                                 '分析时点', '只接受 cutoff 和 group 筛选项')
         data, digest = read_dataset(self.dataset)
-        cutoff = supplied.get('cutoff', data['meta']['default_cutoff'])
-        try:
-            if isinstance(cutoff, bool) or float(cutoff) != int(cutoff):
-                raise ValueError()
-            cutoff = int(cutoff)
-        except (TypeError, ValueError, OverflowError):
-            raise ValueError('分析时点须为整数') from None
+        result = run(data['tables'], values)
+        return {'digest': digest, 'options': values, 'result': result}
+
+    def backtest(self, supplied):
+        values = self._validated(supplied, ('cutoff', 'evaluate', 'group'),
+                                 '时点', '只接受 cutoff、evaluate 和 group 筛选项')
+        if values['evaluate'] < values['cutoff']:
+            raise ValueError('评估时点不能早于分析时点')
+        data, digest = read_dataset(self.dataset)
+        result = backtest(data['tables'], values)
+        return {'digest': digest, 'options': values, 'result': result}
+
+    def _validated(self, supplied, allowed, label, message=None):
+        if not isinstance(supplied, dict) or set(supplied) - set(allowed):
+            raise ValueError(message or f'只接受 {"、".join(allowed)} 筛选项')
+        data, _ = read_dataset(self.dataset)
         group = supplied.get('group', '')
         if not isinstance(group, str) or group not in ['', *data['meta']['groups']]:
             raise ValueError('未知分析范围')
-        if not data['meta']['min_cutoff'] <= cutoff <= data['meta']['max_cutoff']:
-            raise ValueError('分析时点超出资料范围')
-        options = {'cutoff': cutoff, 'group': group}
-        result = run(data['tables'], options)
-        return {'digest': digest, 'options': options, 'result': result}
+        values = {'group': group}
+        for name in allowed:
+            if name == 'group':
+                continue
+            value = supplied.get(name, data['meta']['default_cutoff'])
+            try:
+                if isinstance(value, bool) or float(value) != int(value):
+                    raise ValueError()
+                value = int(value)
+            except (TypeError, ValueError, OverflowError):
+                raise ValueError(f'{label}须为整数') from None
+            if not data['meta']['min_cutoff'] <= value <= data['meta']['max_cutoff']:
+                raise ValueError(f'{label}超出资料范围')
+            values[name] = value
+        return {name: values[name] for name in allowed}
 
 
 class Handler(BaseHTTPRequestHandler):
@@ -70,6 +89,8 @@ class Handler(BaseHTTPRequestHandler):
                 value = self.application.catalog()
             elif request.path == '/api/view':
                 value = self.application.analyze(query)
+            elif request.path == '/api/backtest':
+                value = self.application.backtest(query)
             elif request.path == '/api/analyses':
                 value = self.application.store.list()
             elif request.path.startswith('/api/analyses/'):
@@ -106,9 +127,15 @@ class Handler(BaseHTTPRequestHandler):
             if not 0 < length <= 65536:
                 raise ValueError('请求大小不合适')
             payload = json.loads(self.rfile.read(length))
-            if not isinstance(payload, dict) or set(payload) - {'title', 'options'}:
+            if not isinstance(payload, dict) or set(payload) - {'title', 'options', 'kind'}:
                 raise ValueError('保存请求字段无效')
-            analyzed = self.application.analyze(payload.get('options', {}))
+            kind = payload.get('kind', 'view')
+            if kind not in {'view', 'backtest'}:
+                raise ValueError('未知分析类型')
+            if kind == 'backtest':
+                analyzed = self.application.backtest(payload.get('options', {}))
+            else:
+                analyzed = self.application.analyze(payload.get('options', {}))
             value = self.application.store.save(payload.get('title'), analyzed['digest'], analyzed['options'], analyzed['result'])
             self.send_json(201, value)
         except (ValueError, TypeError) as error:
